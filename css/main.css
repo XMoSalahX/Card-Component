@@ -1,0 +1,98 @@
+.container {
+    background-color: #ddd;
+    width: 50%;
+    height: 600px;
+    margin: 100px auto;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    display: grid;
+    grid-template-areas: "sedans suvs luxury";
+}
+
+.sedans {
+    grid-area: sedans;
+    background-color: #933710;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.suvs {
+    grid-area: suvs;
+    background-color: #016972;
+}
+
+.luxury {
+    grid-area: luxury;
+    background-color: #00403f;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.sedans,
+.suvs,
+.luxury {
+    padding: 10%;
+    width: 80%;
+    position: relative;
+}
+
+h2 {
+    color: white;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
+}
+
+div p {
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    width: 90%;
+}
+
+button {
+    width: 60%;
+    height: 50px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    margin-top: 100px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20%;
+}
+
+.sedans button {
+    color: #933710;
+    font-weight: bold;
+}
+
+.sedans button:hover {
+    background-color: #933710;
+    color: white;
+    border: 1px solid;
+}
+
+.suvs button {
+    color: #016972;
+}
+
+.suvs button:hover {
+    background-color: #016972;
+    color: white;
+    border: 1px solid;
+}
+
+.luxury button {
+    color: #00403f;
+}
+
+.luxury button:hover {
+    background-color: #00403f;
+    color: white;
+    border: 1px solid;
+}
