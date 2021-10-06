@@ -39,7 +39,7 @@
     position: relative;
 }
 
-h2 {
+h1 {
     color: white;
     font-family: 'Big Shoulders Display', cursive;
     font-size: 40px;
@@ -49,6 +49,7 @@ div p {
     color: white;
     font-family: 'Lexend Deca', sans-serif;
     width: 90%;
+    line-height: 1.5;
 }
 
 button {
